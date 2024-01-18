@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5a2ffea-a5a2-4712-b6bc-9334baf575f3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB_8.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Wypożyczalnia/Aplikacja.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Wypożyczalnia/EBike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Wypożyczalnia/Pojazd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Wypożyczalnia/Samochod.java" afterDir="false" />
+    <list default="true" id="e5a2ffea-a5a2-4712-b6bc-9334baf575f3" name="Changes" comment="Initial Commit LAB_8">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wypożyczalnia/Aplikacja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wypożyczalnia/Aplikacja.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wypożyczalnia/EBike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wypożyczalnia/EBike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wypożyczalnia/Pojazd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wypożyczalnia/Pojazd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wypożyczalnia/Samochod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wypożyczalnia/Samochod.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,29 +26,29 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2atwGfsmHgwYpNBaNPR3jceIZWX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "onboarding.tips.debug.path": "C:/Users/l.kulig/Documents/WSB/Semestr III/Programowanie w JAVA/InteliJ/LAB_8/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/l.kulig/Documents/WSB/Semestr III/Programowanie w JAVA/InteliJ/LAB_8/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -64,11 +58,29 @@
       <option name="presentableId" value="Default" />
       <updated>1705151093692</updated>
       <workItem from="1705151094709" duration="6359000" />
+      <workItem from="1705345877545" duration="230000" />
+      <workItem from="1705587580044" duration="31000" />
+      <workItem from="1705587899217" duration="2400000" />
+      <workItem from="1705590351210" duration="7000" />
+      <workItem from="1705601632030" duration="3367000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit LAB_8">
+      <option name="closed" value="true" />
+      <created>1705345986036</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705345986036</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit LAB_8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit LAB_8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

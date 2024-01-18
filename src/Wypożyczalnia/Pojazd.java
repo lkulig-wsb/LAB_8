@@ -36,5 +36,8 @@ package Wypożyczalnia;
 
      public abstract void dispPojazdInfo();
 
+    //Metoda abstrakcyjna do wyliczania kwoty do zapłaty
+    public abstract double wyliczKwoteDoZaplaty(int iloscDni);
+
 
 }

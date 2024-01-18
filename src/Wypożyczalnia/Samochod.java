@@ -52,6 +52,10 @@ package Wypożyczalnia;
          System.out.println("Czy dostępny: " + isDostępny() );
          System.out.println("------------------------------");
      }
+     @Override
+     public double wyliczKwoteDoZaplaty(int iloscDni){
+        return  iloscDni * getCenaWypozyczenia();
+     }
 
 
  }

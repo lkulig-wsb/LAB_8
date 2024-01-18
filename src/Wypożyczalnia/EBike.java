@@ -58,5 +58,9 @@ public class EBike extends Pojazd {
                 " " + getTyp());
         System.out.println("\nCzy dostępny: " + isDostępny() );
     }
+    @Override
+    public double wyliczKwoteDoZaplaty(int iloscDni){
+        return (iloscDni * getCenaWypozyczenia() + 200);
+    }
 
 }
