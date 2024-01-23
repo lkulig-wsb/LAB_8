@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5a2ffea-a5a2-4712-b6bc-9334baf575f3" name="Changes" comment="LAB_8 Commit Switch.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Wypożyczalnia/Aplikacja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wypożyczalnia/Aplikacja.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Wypożyczalnia/EBike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wypożyczalnia/EBike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Wypożyczalnia/Pojazd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wypożyczalnia/Pojazd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Wypożyczalnia/Samochod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wypożyczalnia/Samochod.java" afterDir="false" />
-    </list>
+    <list default="true" id="e5a2ffea-a5a2-4712-b6bc-9334baf575f3" name="Changes" comment="LAB_8 Last Commit." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +58,7 @@
       <workItem from="1705590351210" duration="7000" />
       <workItem from="1705601632030" duration="7705000" />
       <workItem from="1705952576444" duration="289000" />
-      <workItem from="1705989592577" duration="12746000" />
+      <workItem from="1705989592577" duration="13071000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit LAB_8">
       <option name="closed" value="true" />
@@ -82,7 +76,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705605062431</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="LAB_8 Last Commit.">
+      <option name="closed" value="true" />
+      <created>1706010143900</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706010143900</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,7 +93,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit LAB_8" />
     <MESSAGE value="LAB_8 Commit Switch." />
-    <option name="LAST_COMMIT_MESSAGE" value="LAB_8 Commit Switch." />
+    <MESSAGE value="LAB_8 Last Commit." />
+    <option name="LAST_COMMIT_MESSAGE" value="LAB_8 Last Commit." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
