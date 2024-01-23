@@ -2,11 +2,15 @@ package Wypożyczalnia;
 
 public class EBike extends Pojazd {
 
+    //Utworzenie klasy EBike która dziedziczy po klasie Pojazd.
+
+    //Pola klasy EBike
     private double zasięg;
     private double prędkoscMaksymalna;
     private int iloscPrzerzutek;
     private String typ;
 
+    //Utworznie konstruktora klasy Ebike.
     public EBike (int idPojazdu, String model,String marka, double cenaWypożyczenia, boolean dostępny, double zasięg, double prędkoscMaksymalna,
                   int iloscPrzerzutek, String typ){
         super(idPojazdu,model, marka,cenaWypożyczenia,dostępny);
@@ -16,6 +20,8 @@ public class EBike extends Pojazd {
         this.typ=typ;
 
     }
+
+    //Przesłonięcie metod z klasy abstrakcyjnej Pojazd. Gettery.
 
     @Override
     public String getModel(){
@@ -32,7 +38,6 @@ public class EBike extends Pojazd {
     public int getIdPojazdu(){
         return super.getIdPojazdu();
     }
-
     @Override
     public boolean isDostępny(){
         return super.isDostępny();
@@ -51,16 +56,19 @@ public class EBike extends Pojazd {
         return typ;
     }
 
+    //Przesłonięcie medody dispPojazdInfo(). Metoda wyświetlająca dane Pojazdu. Przesłonięcie dostarcza własną implementację dla
+    // objektu klasy Ebike.
     @Override
     public void dispPojazdInfo() {
-        System.out.println("Ebike_ID: " + getIdPojazdu() + " >> " +  getModel() + " " + getMarka() + " " + getCenaWypozyczenia()
-                + " " + getZasięg() + " " + getPrędkoscMaksymalna() + " " + getIloscPrzerzutek() +
-                " " + getTyp());
+        System.out.println("Ebike_ID: " + getIdPojazdu() + " >> Model: " +  getModel() + ", Marka: " + getMarka() + ", Cena Wypożyczenia: " + getCenaWypozyczenia()
+                + ", Zasięg: " + getZasięg() + ", Prędkość MAX: " + getPrędkoscMaksymalna() + ", Ilość przerzutek: " + getIloscPrzerzutek() +
+                ", Typ: " + getTyp());
         System.out.println("\nCzy dostępny: " + isDostępny() );
     }
+    //Przesłonięcie metody do wyliczania kwoty do zapłaty. Metoda w Klasie EBike uwzględnia dodatkowa kwotę kaucji 300PLN
     @Override
     public double wyliczKwoteDoZaplaty(int iloscDni){
-        return (iloscDni * getCenaWypozyczenia() + 200);
+        return (iloscDni * getCenaWypozyczenia() + 300);
     }
 
 }

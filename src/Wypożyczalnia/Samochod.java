@@ -1,17 +1,23 @@
 package Wypożyczalnia;
 
- public class Samochod extends Pojazd {
+import java.sql.SQLOutput;
 
-     private int iloscMiejsc;
+//Utworzenie klasy Samochod która dziedziczy po klasie Pojazd.
+public class Samochod extends Pojazd {
+
+    //Dane składowe klasy Samochod.
+    private int iloscMiejsc;
      private String typSilnika;
      private double przebieg;
 
+   //Konstruktor klasy Samochod.
     public Samochod (int idPojazdu,String model,String marka, double cenaWypożyczenia, boolean dostępny, int iloscMiejsc, String typSilnika, double przebieg){
-        super(idPojazdu,model, marka,cenaWypożyczenia,dostępny);
+        super(idPojazdu,model, marka,cenaWypożyczenia,dostępny);//super odnosi się do konstruktora z klasy bzowej.
         this.iloscMiejsc=iloscMiejsc;
         this.typSilnika=typSilnika;
         this.przebieg=przebieg;
     }
+    //Przesłonięcie metod z klasy bazowej Pojazd. Gettery.
     @Override
      public String getModel(){
         return super.getModel();
@@ -34,6 +40,7 @@ package Wypożyczalnia;
         return super.isDostępny();
      }
 
+     //Gettery klasy Samochod.
     public int getIloscMiejsc(){
         return iloscMiejsc;
     }
@@ -44,13 +51,16 @@ package Wypożyczalnia;
         return przebieg;
     }
 
+    //Przesłonięcie metod dispPojazdInfo() oraz wyliczKwoteDoZaplaty();
      @Override
      public void dispPojazdInfo() {
 
-         System.out.println("Samochód_ID: " + getIdPojazdu() + " >> " + getModel() + " " + getMarka() + " " + getCenaWypozyczenia()
-         + " " + getIloscMiejsc() + " " + getTypSilnika() + " " + getPrzebieg());
+         System.out.println("Samochód_ID: " + getIdPojazdu());
+         System.out.println("Model: " + getModel() + ", Marka: " + getMarka());
+         System.out.println("Cena Wypożyczenia: " + getCenaWypozyczenia());
+         System.out.println("Ilość Miejsc: " + getIloscMiejsc() + ", Typ Silnika: " + getTypSilnika() + ", Przebieg:  " + getPrzebieg());
          System.out.println("Czy dostępny: " + isDostępny() );
-         System.out.println("------------------------------");
+         System.out.println("\n");
      }
      @Override
      public double wyliczKwoteDoZaplaty(int iloscDni){

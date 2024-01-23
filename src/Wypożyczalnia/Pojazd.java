@@ -1,13 +1,16 @@
 package Wypożyczalnia;
 
- abstract class Pojazd {
-     private int idPojazdu;
+ //Utworzenie abstrakcyjnej klasy Pojazd.
+abstract class Pojazd {
+    //Pola klasy Pojazd.
+    private int idPojazdu;
      private String model;
      private String marka;
      private double cenaWypozyczenia;
      private boolean dostępny;
 
-    public Pojazd(int idPojazdu, String model, String marka, double cenaWypozyczenia, boolean dostępny){
+    //Utworznie konstruktora klasy Pojazd.
+     public Pojazd(int idPojazdu, String model, String marka, double cenaWypozyczenia, boolean dostępny){
         this.idPojazdu = idPojazdu;
         this.model=model;
         this.marka=marka;
@@ -15,6 +18,7 @@ package Wypożyczalnia;
         this.dostępny=dostępny;
     }
 
+    //Gettery.
     public int getIdPojazdu(){
         return idPojazdu;
     }
@@ -34,9 +38,11 @@ package Wypożyczalnia;
          return dostępny;
      }
 
+     //Utworzenie metody abstrakcyjnej której zadaniem będzie wyświetlenie danych pojazdu.
+     //Poszczególen klasy pochodne będą dostarczały własną implementację tej metody.
      public abstract void dispPojazdInfo();
 
-    //Metoda abstrakcyjna do wyliczania kwoty do zapłaty
+    //Metoda abstrakcyjna do wyliczania kwoty do zapłaty.
     public abstract double wyliczKwoteDoZaplaty(int iloscDni);
 
 
