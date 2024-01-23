@@ -1,6 +1,5 @@
 package Wypożyczalnia;
 
-import javax.sound.midi.Soundbank;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.PrintStream;
@@ -105,10 +104,7 @@ public class Aplikacja {
                             System.out.println("Cena wypożyczenia pojazdu to: " + cenaWypozyczenia);
                         }
 
-                    /*double cenaWypożyczenia = s1.wyliczKwoteDoZaplaty(iloscDni);
 
-                    System.out.println("Cena wypożyczenia samochodu " + s1.getMarka() + " " + s1.getModel() +
-                            " na " + iloscDni + " dni to: " + cenaWypożyczenia);*/
                     break;
 
 

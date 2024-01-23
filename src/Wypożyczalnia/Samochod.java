@@ -1,7 +1,5 @@
 package Wypożyczalnia;
 
-import java.sql.SQLOutput;
-
 //Utworzenie klasy Samochod która dziedziczy po klasie Pojazd.
 public class Samochod extends Pojazd {
 
@@ -62,10 +60,10 @@ public class Samochod extends Pojazd {
          System.out.println("Czy dostępny: " + isDostępny() );
          System.out.println("\n");
      }
+     //Przesłonięcie metody wyliczKwoteDoZaplaty().
      @Override
      public double wyliczKwoteDoZaplaty(int iloscDni){
         return  iloscDni * getCenaWypozyczenia();
      }
 
-
- }
+}
