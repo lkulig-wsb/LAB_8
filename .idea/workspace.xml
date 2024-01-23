@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5a2ffea-a5a2-4712-b6bc-9334baf575f3" name="Changes" comment="LAB_8 Last Commit.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Wypożyczalnia/Aplikacja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wypożyczalnia/Aplikacja.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Wypożyczalnia/Samochod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wypożyczalnia/Samochod.java" afterDir="false" />
-    </list>
+    <list default="true" id="e5a2ffea-a5a2-4712-b6bc-9334baf575f3" name="Changes" comment="LAB_8 Last2 Commit." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +58,7 @@
       <workItem from="1705590351210" duration="7000" />
       <workItem from="1705601632030" duration="7705000" />
       <workItem from="1705952576444" duration="289000" />
-      <workItem from="1705989592577" duration="16402000" />
+      <workItem from="1705989592577" duration="16720000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit LAB_8">
       <option name="closed" value="true" />
@@ -96,7 +92,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706010165139</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="LAB_8 Last2 Commit.">
+      <option name="closed" value="true" />
+      <created>1706015366879</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706015366879</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,7 +110,8 @@
     <MESSAGE value="Initial Commit LAB_8" />
     <MESSAGE value="LAB_8 Commit Switch." />
     <MESSAGE value="LAB_8 Last Commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="LAB_8 Last Commit." />
+    <MESSAGE value="LAB_8 Last2 Commit." />
+    <option name="LAST_COMMIT_MESSAGE" value="LAB_8 Last2 Commit." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
